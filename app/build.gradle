@@ -5,7 +5,7 @@ android {
     buildToolsVersion '33.0.2'
     defaultConfig {
         applicationId "com.dar.nclientv2"
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 33
         versionCode 300
         versionName "3.0.0-stable"
