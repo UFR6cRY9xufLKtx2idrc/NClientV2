@@ -8,7 +8,6 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 300
-        multiDexEnabled true
         versionName "3.0.0-stable"
         vectorDrawables.useSupportLibrary true
         proguardFiles 'proguard-rules.pro'
@@ -28,8 +27,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_19
-        targetCompatibility JavaVersion.VERSION_19
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     lint {
         abortOnError false
