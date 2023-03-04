@@ -8,6 +8,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 300
+        multiDexEnabled true
         versionName "3.0.0-stable"
         vectorDrawables.useSupportLibrary true
         proguardFiles 'proguard-rules.pro'
