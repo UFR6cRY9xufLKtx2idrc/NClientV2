@@ -48,7 +48,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.8.0'
 
 // Other
-    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.14.9'//Because of min SDK
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:4.10.0'//Because of min SDK
     implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
     //implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     implementation 'org.jsoup:jsoup:1.15.4'
